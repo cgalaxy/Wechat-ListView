@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme_AduioDialog" parent="AppTheme">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item> //Dialog的windowFrame框为无
+        <item name="android:windowIsFloating">true</item>//是否浮现在activity之上
+        <item name="android:windowIsTranslucent">false</item>//是否半透明
+         <item name="android:backgroundDimEnabled">false</item>//弹出对话框的时候屏幕是否会变暗
+    </style>
+</resources>
